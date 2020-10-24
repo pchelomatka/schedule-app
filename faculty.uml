@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.faculty</OriginalElement>
+  <nodes>
+    <node x="194.49999999999997" y="436.0">1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student</node>
+    <node x="115.49999999999997" y="276.0">1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_group</node>
+    <node x="117.49999999999997" y="127.0">1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.specialty</node>
+    <node x="0.0" y="640.0">1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.lecturer</node>
+    <node x="117.49999999999997" y="0.0">1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.faculty</node>
+    <node x="1.5" y="425.0">1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.specialty" target="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.faculty">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.lecturer" target="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_subject">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_subject" target="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_group">
+      <point x="0.0" y="-82.5" />
+      <point x="88.0" y="400.0" />
+      <point x="149.49999999999997" y="400.0" />
+      <point x="-34.0" y="49.5" />
+    </edge>
+    <edge source="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student" target="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_group">
+      <point x="0.0" y="-71.5" />
+      <point x="279.0" y="400.0" />
+      <point x="217.49999999999997" y="400.0" />
+      <point x="34.0" y="49.5" />
+    </edge>
+    <edge source="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.student_group" target="1d769fbb-1849-4247-ae7e-7b2cc46129a3.TABLE:schedule-app.public.specialty">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="306.0" y="333.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
