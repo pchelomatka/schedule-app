@@ -1,9 +1,11 @@
 package main.repositories;
 
-import main.entities.Subject;
+import main.entities.Student;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface SubjectRepository extends CrudRepository<Subject, Integer> {
+public interface StudentRepository extends CrudRepository<Student, Integer> {
+
+
 }

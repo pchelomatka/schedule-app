@@ -5,15 +5,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.Data;
 
-import java.util.List;
-
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonPropertyOrder({"1", "2"})
+@JsonPropertyOrder({"group", "week"})
 @Data
-public class ResponseScheduleSpeciality {
+public class RequestScheduleGroup {
 
-    @JsonProperty("1")
-    private List<Day> firstWeek = null;
-    @JsonProperty("2")
-    private List<Day> secondWeek = null;
+    @JsonProperty("group")
+    private String group;
+    @JsonProperty("week")
+    private Integer week;
 }
