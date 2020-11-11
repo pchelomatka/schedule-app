@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: postgres://vbojdfbbsgycmf:c98f6126a1adad11d0ab5e27e6dcd191cee1a13de7d7769d5d3fdf7385c29845@ec2-54-246-67-245.eu-west-1.compute.amazonaws.com:5432/d85joi7booti0f
+    url: jdbc:postgresql://localhost:5432/schedule-app
     driver-class-name: org.postgresql.Driver
-    username: vbojdfbbsgycmf
-    password: c98f6126a1adad11d0ab5e27e6dcd191cee1a13de7d7769d5d3fdf7385c29845
+    username: postgres
+    password: postgres
